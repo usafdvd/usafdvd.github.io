@@ -5,7 +5,7 @@ body {
 div {
 	font-size: 1.25em;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px;
 	border-radius: 5px;
 	display:inline;
 }
@@ -69,7 +69,7 @@ ul.posts li {
 }
 
 .content {
-	width: 79%;
+	width: 78%;
     margin-left: 3%;
     margin-right: 3%;
     display: inline-block;
