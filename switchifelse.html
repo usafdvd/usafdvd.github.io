@@ -7,12 +7,13 @@
 	</head>
 	
 	<body>
+		<div class="wrapper">
 		<div class="nav-bar">
     		
         		<span class="nav-link"><a href="/">Home</a></span>
-	        	<span class="nav-link"><a href="/about">About</a></span>
-        		<span class="nav-link"><a href="/cv">CV</a></span>
+	        	<span class="nav-link"><a href="/about">About</a></span> 
         		<span class="nav-link"><a href="/blog">Blog</a></span>
+		</div>
 		</div>
 			<h1>Switch/If-Else</h1>
 			
@@ -32,7 +33,21 @@
 			//
 			<div><a href = "/forwhiledowhile">For/While/Do While</a>
 			</div>
+			<p> Whenever the else if statement is used, the compiler or interpreter initially checks the condition whether it is true or false and if the condition is found to be true then, the corresponding statements are executed. If the condition is found to be false, it continues checking the next else if statement until the condition comes to be true or the control comes to the end of the else if ladder.
+
+
 			
+			<p> The switch case statement is similar to the else-if ladder as it provides multiple branching or multi-conditional processing. But, the basic difference between switch case and else if ladder is that the switch case statement tests the value of variable or expression against a series of different cases or values, until a match is found. Then, the block of code with in the match case is executed. If there are no matches found, the optional default case is executed.
+			
+			<p> 1. In else if ladder, the control goes through the every else if statement until it finds true value of the statement or it comes to the end of the else if ladder. In case of switch case, as per the value of the switch, the control jumps to the corresponding case.
+				2. The switch case is more compact than lot of nested else if. So, switch is considered to be more readable.
+				3. The use of break statement in switch is essential but there is no need of use of break in else if ladder.
+				4. The variable data type that can be used in expression of switch is integer only where as in else if ladder accepts integer type as well as character.
+				5. Another difference between switch case and else if ladder is that the switch statement is considered to be less flexible than the else if ladder, because it allows only testing of a single expression against a list of discrete values.
+				6. Since the compiler is capable of optimizing the switch statement, they are generally considered to be more efficient. Each case in switch statement is independent of the previous one. In case of else if ladder, the code needs to be processed in the order determined by the programmer.
+				7. Switch case statement work on the basis of equality operator whereas else if ladder works on the basis of true false( zero/non-zero) basis.
+				
+			<p><a href="http://www.codewithc.com/difference-between-switch-case-and-else-if-ladder/">Source</a>	
 			<footer>
     		<ul>
         		<li><a href="mailto:t3hdvd@gmail.com">email</a></li>
