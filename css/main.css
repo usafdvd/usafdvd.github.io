@@ -75,6 +75,14 @@ ul.posts li {
     display: inline-block;
 }
 
+.blurb {
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	display: inline-block;
+	text-align: left;
+}
+
 .nav-link {
 	color: blue;
 	margin-top: 1em;
